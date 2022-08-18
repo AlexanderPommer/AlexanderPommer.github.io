@@ -1,0 +1,81 @@
+-- Short Games -- 
+
+Fool's Mate
+
+f2f3
+e7e5
+g2g4
+d8h4
+e1f2
+ 
+Scholar's Mate
+
+e2e4
+e7e5
+f1c4
+b8c6
+d1h5
+g8f6
+h5f7
+e8f7
+ 
+Smothered Mate
+
+e2e4
+c7c6
+d2d4
+d7d5
+b1c3
+d5e4
+c3e4
+b8d7
+d1e2
+g8f6
+e4d6
+e7d6
+ 
+Englund's Gambit Mate
+
+d2d4
+e7e5
+d4e5
+d8e7
+g1f3
+b8c6
+c1f4
+e7b4
+f4d2
+b4b2
+d2c3
+f8b4
+d1d2
+b4c3
+d2c3
+b2c1
+e1d1
+ 
+-- Special Moves --
+
+en passant & pawn promotion
+
+a2a4
+b7b5
+a4b5
+c7c5
+b5c6
+a7a6
+c6c7
+a6a5
+c7b8
+
+Castle
+
+e2e4
+e7e5
+f1c4
+f8c5
+g1f3
+g8f6
+e1g1
+e8g8
+ 
