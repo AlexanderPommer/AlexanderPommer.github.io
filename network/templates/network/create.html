@@ -1,0 +1,27 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <div id="create-post-view">
+        {% if user.is_authenticated %}
+            <h2>New Post</h2>
+            <form id="post-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <input type="hidden" disabled class="form-control" value="{{ request.user.id }}">
+                </div>
+                <textarea class="form-control" id="post-text" placeholder="Post text" rows="6"></textarea>
+                <input type="submit" class="btn btn-outline-primary" id="form-button" value="Send"/>
+            </form>
+        {% endif %}
+    </div>
+
+    <div id="all-posts-view">
+    </div>
+
+    <div id="following-view">
+    </div>  
+
+{% endblock %}
+
+<!-- TODO implement create post at index.html using js -->
