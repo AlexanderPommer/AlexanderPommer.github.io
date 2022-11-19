@@ -2,7 +2,7 @@
 Tic Tac Toe Player
 """
 
-import math, copy
+import copy
 
 X = "X"
 O = "O"
