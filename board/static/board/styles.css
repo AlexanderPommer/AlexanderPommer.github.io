@@ -1,0 +1,149 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #cc9966;
+    background-image: url("assets/wood-pattern.png");
+    
+}
+
+#board-layout {
+    display: block;
+    padding: 2% 0%;
+}
+
+#board-background {
+    position: relative;
+    background-image: url("assets/chessboard.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 100%; /* This value should be set to the aspect ratio of your image (height/width x 100%) */
+}
+
+#board-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#board_view {
+    display: none;
+}
+
+#my_games_view {
+    display: none;
+}
+
+.central-layout {
+    display: block;
+    padding: 2% 0%;
+}
+
+.row-cols-8 {
+    height: 12.5%;
+}
+
+.navbar {
+    background-color: #B07C4F;
+    background-image: url("assets/wood-pattern.png");
+}
+
+.match_div {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini_board {
+    cursor: pointer;
+}
+
+.mini_info {
+    padding-left: 5%;
+}
+
+/* chess pieces */
+.col {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bb {
+    background-image: url("assets/bb.svg");
+}
+
+.bk {
+    background-image: url("assets/bk.svg");
+}
+
+.bn {
+    background-image: url("assets/bn.svg");
+}
+
+.bp {
+    background-image: url("assets/bp.svg");
+}
+
+.bq {
+    background-image: url("assets/bq.svg");
+}
+
+.br {
+    background-image: url("assets/br.svg");
+}
+
+.wb {
+    background-image: url("assets/wb.svg");
+}
+
+.wk {
+    background-image: url("assets/wk.svg");
+}
+
+.wn {
+    background-image: url("assets/wn.svg");
+}
+
+.wp {
+    background-image: url("assets/wp.svg");
+}
+
+.wq {
+    background-image: url("assets/wq.svg");
+}
+
+.wr {
+    background-image: url("assets/wr.svg");
+}
+
+.blue-circle {
+    background-color: #ADD8E6;
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+.green-circle {
+    background-color: #B1BA86;
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+.enemy-attack {
+    background-size: 75%;
+    /*
+    background-color: #b3651c;
+    border-radius: 100%;
+    opacity: 0.8;
+    */
+}
+
+.checked {
+    background-color: #d1421e;
+    border-radius: 100%;
+    opacity: 0.8;
+}

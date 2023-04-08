@@ -1,0 +1,123 @@
+{% extends "board/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <div id="board_view" class="container-fluid vh-100">
+        <div class="row">
+            <div class="col-lg-3 col-s-12"></div>
+            <div class="col-lg-6 col-s-12">
+                <div  class="container central-layout">
+                    <div id="board-background" class="container">
+                        <div id="board-grid" class="container">
+                        <div class="row row-cols-8">
+                            <div id="square-56" class="col"></div>
+                            <div id="square-57" class="col"></div>
+                            <div id="square-58" class="col"></div>
+                            <div id="square-59" class="col"></div>
+                            <div id="square-60" class="col"></div>
+                            <div id="square-61" class="col"></div>
+                            <div id="square-62" class="col"></div>
+                            <div id="square-63" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-48" class="col"></div>
+                            <div id="square-49" class="col"></div>
+                            <div id="square-50" class="col"></div>
+                            <div id="square-51" class="col"></div>
+                            <div id="square-52" class="col"></div>
+                            <div id="square-53" class="col"></div>
+                            <div id="square-54" class="col"></div>
+                            <div id="square-55" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-40" class="col"></div>
+                            <div id="square-41" class="col"></div>
+                            <div id="square-42" class="col"></div>
+                            <div id="square-43" class="col"></div>
+                            <div id="square-44" class="col"></div>
+                            <div id="square-45" class="col"></div>
+                            <div id="square-46" class="col"></div>
+                            <div id="square-47" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-32" class="col"></div>
+                            <div id="square-33" class="col"></div>
+                            <div id="square-34" class="col"></div>
+                            <div id="square-35" class="col"></div>
+                            <div id="square-36" class="col"></div>
+                            <div id="square-37" class="col"></div>
+                            <div id="square-38" class="col"></div>
+                            <div id="square-39" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-24" class="col"></div>
+                            <div id="square-25" class="col"></div>
+                            <div id="square-26" class="col"></div>
+                            <div id="square-27" class="col"></div>
+                            <div id="square-28" class="col"></div>
+                            <div id="square-29" class="col"></div>
+                            <div id="square-30" class="col"></div>
+                            <div id="square-31" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-16" class="col"></div>
+                            <div id="square-17" class="col"></div>
+                            <div id="square-18" class="col"></div>
+                            <div id="square-19" class="col"></div>
+                            <div id="square-20" class="col"></div>
+                            <div id="square-21" class="col"></div>
+                            <div id="square-22" class="col"></div>
+                            <div id="square-23" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-8" class="col"></div>
+                            <div id="square-9" class="col"></div>
+                            <div id="square-10" class="col"></div>
+                            <div id="square-11" class="col"></div>
+                            <div id="square-12" class="col"></div>
+                            <div id="square-13" class="col"></div>
+                            <div id="square-14" class="col"></div>
+                            <div id="square-15" class="col"></div>
+                        </div>
+                        <div class="row row-cols-8">
+                            <div id="square-0" class="col"></div>
+                            <div id="square-1" class="col"></div>
+                            <div id="square-2" class="col"></div>
+                            <div id="square-3" class="col"></div>
+                            <div id="square-4" class="col"></div>
+                            <div id="square-5" class="col"></div>
+                            <div id="square-6" class="col"></div>
+                            <div id="square-7" class="col"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-s-12"></div>
+        </div>
+    </div>
+    <div id="match-id" style="display: none;"></div>
+    <div id="my_games_view" class="container-fluid vh-100">
+        <div class="row">
+            <div class="col-lg-3 col-s-12"></div>
+            <div class="col-lg-6 col-s-12">
+                <div id="my_games_list"></div>
+            </div>
+        </div>
+        <!-- Pagination -->
+        <nav aria-label="Posts pages navigation" id="paginator">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" id="prev-page" href="">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" id="next-page" href="">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'board/scripts.js' %}"></script>
+{% endblock %}
