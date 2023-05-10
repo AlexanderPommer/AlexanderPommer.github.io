@@ -1,2 +1,2 @@
 # AlexanderPommer.github.io
-github pages deployment attempt
+An online chess game built with Django
